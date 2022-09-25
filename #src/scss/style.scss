@@ -177,18 +177,40 @@ h4 {
 //===================================================================================================================================
 
 .main-banner {
-	position: relative;
-	padding: 150px 0;
-	min-height: 600px;
+	padding: 251px 0 178px 0;
+	min-height: 551px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: cover;
 	background-image: url('../img/main-banner.jpg');
 }
 
-.main-banner__title {}
+.main-banner__title {
+	position: relative;
+	color: #fff;
+	padding-left: 83px;
+	margin-bottom: 10px;
 
-.main-banner__subtitle {}
+	&::before {
+		content: '';
+		float: left;
+		position: absolute;
+		top: -30px;
+		left: 0;
+		width: 113px;
+		flex: 0 0 113px;
+		height: 65px;
+		background-size: 100%;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEzIiBoZWlnaHQ9IjY1IiB2aWV3Qm94PSIwIDAgMTEzIDY1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTIuNDIyOSA2NS4wMDAyVjQzLjIyNjFMNTAuNTU3MyAxNS4zNzYzTDYxLjA2MjUgMjMuMDY0M0w3MS42MDE2IDE1LjM3NjNMNTAuNTU3MyAwLjAwMDM2NjIxMUwwIDM2LjkxMjhWNjUuMDAwMkgxMi40MjI5WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTUzLjU5NTEgNjUuMDAwMlY0My4yMjYxTDkxLjcyOTQgMTUuMzc2M0gxMTIuNzc0TDkxLjcyOTQgMC4wMDAzNjYyMTFMNDEuMTcyMSAzNi45MTI4VjY1LjAwMDJINTMuNTk1MVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=');
+	}
+}
+
+.main-banner__subtitle {
+	color: #fff;
+	line-height: 20px;
+}
 
 //========================================================================================================================================================
 
