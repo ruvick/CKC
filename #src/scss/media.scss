@@ -1,4 +1,29 @@
 //<Адаптив>===========================================================================================================================================
+@media (max-width: 1440px) {
+	.our-projects__card {
+		height: 320px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.main-banner {
+		background-position: 50% 0;
+	}
+
+	.services__column {
+		padding: 0 5px;
+		padding-bottom: 20px;
+	}
+
+	.services__inner {
+		margin: 0 -5px;
+	}
+
+	.our-projects__card {
+		height: 280px;
+	}
+}
+
 @media (max-width: 1260px) {
 	._container {
 		padding: 0 10px;
@@ -8,6 +33,42 @@
 @media (max-width: 1024px) {
 	.menu-list a {
 		padding: 5px 38px 5px 0;
+	}
+
+	.services__card {
+		height: 300px;
+		padding: 15px;
+	}
+
+	.our-projects__card {
+		flex: 0 1 50%;
+	}
+}
+
+@media (max-width: 940px) {
+	.contacts__form-input {
+		flex: 0 1 48.5%;
+	}
+}
+
+@media (max-width: 812px) {
+	.services__card {
+		height: 250px;
+	}
+
+	.services__card-title {
+		font-size: 14px;
+		line-height: 1.3;
+	}
+
+	.contacts__inner {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+
+	.contacts__column {
+		flex: 0 1 100%;
+		margin-bottom: 35px;
 	}
 }
 
@@ -53,7 +114,7 @@
 	}
 
 	.section {
-		padding: 20px 0 !important;
+		padding: 20px 0;
 	}
 
 	.title {
@@ -81,6 +142,119 @@
 		max-height: 35px;
 		margin-bottom: 5px;
 	}
+
+	.main-banner {
+		padding: 100px 0 60px 0;
+	}
+
+	.main-banner__title::before {
+		display: none;
+	}
+
+	.main-banner__title {
+		padding-left: 0;
+	}
+
+	.main-banner__subtitle {
+		font-size: 14px;
+		line-height: 1.3;
+	}
+
+	.about__subtitle {
+		font-size: 14px;
+		text-align: left;
+		line-height: 1.5;
+	}
+
+	.services__card-title {
+		font-size: 12px;
+	}
+
+	.services__column {
+		padding: 0 3px;
+		padding-bottom: 5px;
+	}
+
+	.services__inner {
+		margin: 0 -3px;
+	}
+
+	.advant__card-descp {
+		font-size: 14px;
+	}
+
+	.advant__card-icon {
+		width: 80px;
+		flex: 0 0 80px;
+		height: 80px;
+		padding: 7px;
+		margin-bottom: 10px;
+	}
+
+	.advant__card-icon-line {
+		width: 65px;
+		flex: 0 0 65px;
+		height: 65px;
+	}
+
+	.advant__card-icon-line::before {
+		background-size: 60%;
+	}
+
+	.advant__inner {
+		padding: 25px 0;
+	}
+
+	.our-projects__card {
+		height: 200px;
+		padding: 15px;
+	}
+
+	.our-projects__card-title {
+		font-size: 14px;
+	}
+
+	.our-projects__card-title.arro-icon::after {
+		display: none;
+	}
+
+	.contacts__form-input {
+		flex: 0 1 49%;
+		height: 30px;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.contacts__form-btn {
+		min-width: auto;
+		width: 49%;
+		font-size: 14px;
+		padding: 15px;
+	}
+
+	.contacts__phoneBlock-tel {
+		display: block;
+		font-size: 26px;
+		color: #000;
+		margin-bottom: 5px;
+	}
+
+	.contacts__phoneBlock {
+		margin-bottom: 20px;
+	}
+
+	.contacts__phoneBlock-popup-link {
+		font-size: 14px;
+	}
+
+	.contacts__email {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.contacts__address {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -93,6 +267,12 @@
 	}
 }
 
+@media (max-width: 630px) {
+	.services__column {
+		flex: 0 1 33.333%;
+	}
+}
+
 @media (max-width: 612px) {
 	.popup__img {
 		flex: 0 1 43%;
@@ -100,6 +280,34 @@
 
 	.popup__form-block {
 		padding: 35px 15px;
+	}
+
+	.advant__inner {
+		flex-wrap: wrap;
+	}
+
+	.advant__card {
+		flex: 0 1 100%;
+		flex-direction: row;
+		justify-content: start;
+		margin-bottom: 10px;
+	}
+
+	.advant__card:last-child {
+		margin-bottom: 0;
+	}
+
+	.advant__card-icon {
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+
+	.advant__card-descp {
+		text-align: left;
+	}
+
+	.advant__card-descp br {
+		display: none;
 	}
 }
 
@@ -127,6 +335,20 @@
 	.footer__logo {
 		margin-bottom: 10px;
 	}
+
+	.services__column {
+		flex: 0 1 50%;
+	}
+
+	.our-projects__card {
+		height: 160px;
+	}
+
+	.contacts__form-input,
+	.contacts__form-btn {
+		flex: 0 1 100%;
+		width: 100%;
+	}
 }
 
 @media (max-width: 480px) {
@@ -153,6 +375,23 @@
 	}
 }
 
+@media (max-width: 414px) {
+	.main-banner {
+		padding: 60px 0 45px 0;
+	}
+
+	.our-projects__card {
+		flex: 0 1 100%;
+		// height: 130px;
+	}
+}
+
+@media (max-width: 375px) {
+	.services__card {
+		height: 200px;
+	}
+}
+
 @media (max-width: 345px) {
 	.header__phone::before {
 		display: none;
@@ -164,5 +403,9 @@
 
 	.header__contacts {
 		flex: 0 0 150px;
+	}
+
+	.services__card-title {
+		font-size: 11px;
 	}
 }
