@@ -1,7 +1,13 @@
 //<Адаптив>===========================================================================================================================================
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
 	._container {
 		padding: 0 10px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.menu-list a {
+		padding: 5px 38px 5px 0;
 	}
 }
 
@@ -14,51 +20,27 @@
 	}
 
 	.header__logo {
+		flex: 0 0 100px;
+		height: 23px;
 		margin-right: 20px;
-	}
-
-	.logo-icon {
-		flex: 0 0 45px;
-		height: 15px;
-	}
-
-	.logo-icon:before {
-		flex: 0 0 100%;
-		height: 100%;
-	}
-
-	.logo-icon p {
-		display: none;
 	}
 
 	.icon-menu {
 		display: flex;
 	}
 
-	.header__menu-block {
-		margin-right: 15px;
-	}
-
 	.header__menu-list {
 		display: none;
 	}
 
-	.header__search form {
-		max-height: 30px;
-	}
-
 	.header__contacts {
-		flex: 0 0 133px;
+		flex: 0 0 160px;
 		margin-left: auto;
 		margin-right: 15px;
 	}
 
 	.header__phone {
-		font-size: 18px;
-	}
-
-	.header__time-phone {
-		display: none;
+		font-size: 16px;
 	}
 
 	.header__popup-link {
@@ -80,6 +62,24 @@
 
 	::-webkit-scrollbar {
 		display: none;
+	}
+
+	.footer {
+		padding: 15px 0;
+	}
+
+	.footer__menu-item-link {
+		font-size: 14px;
+	}
+
+	.footer__menu-item {
+		margin-right: 35px;
+	}
+
+	.footer__logo {
+		width: 130px;
+		max-height: 35px;
+		margin-bottom: 5px;
 	}
 }
 
@@ -104,14 +104,6 @@
 }
 
 @media (max-width: 515px) {
-	.header__contacts {
-		display: none;
-	}
-
-	.header__mob-phone-icon {
-		display: flex;
-		margin-right: 25px;
-	}
 
 	.popup__img {
 		display: none;
@@ -119,6 +111,21 @@
 
 	.popup__form-block {
 		flex: 0 1 100%;
+	}
+
+	.footer__menu-item {
+		flex: 0 1 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.footer__row {
+		width: auto;
+		align-items: start;
+	}
+
+	.footer__logo {
+		margin-bottom: 10px;
 	}
 }
 
@@ -143,5 +150,19 @@
 
 	.search__input {
 		border-radius: 0 !important;
+	}
+}
+
+@media (max-width: 345px) {
+	.header__phone::before {
+		display: none;
+	}
+
+	.header__phone {
+		font-size: 14px;
+	}
+
+	.header__contacts {
+		flex: 0 0 150px;
 	}
 }
