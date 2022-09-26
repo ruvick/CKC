@@ -2,12 +2,35 @@
 
 // Общий класс главной обертки
 .page-recurring {
-  padding-bottom: 150px;}
+  padding-bottom: 150px;
+}
 
 // Общий класс для страниц
 .recurring {
-  padding-top: 27px;}
+  padding-top: 27px;
+}
+
 .recurring h1,
 .recurring h2 {
-  margin-bottom: 28px;}
+  margin-bottom: 28px;
+}
+
 //=============================================================================================================================
+
+.arro-icon {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    width: 10px;
+    flex: 0 0 10px;
+    height: 11.67px;
+    margin-left: 10px;
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMSAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTguODc1MjggOS4yMDM5NUw5LjQ2NDUzIDEuNTQzNjJNOS40NjQ1MyAxLjU0MzYyTDEuODA0MjEgMi4xMzI4OE05LjQ2NDUzIDEuNTQzNjJMMS4yMTQ5NSA5Ljc5MzIiIHN0cm9rZT0iI0Y5NjAwQSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==');
+  }
+}
