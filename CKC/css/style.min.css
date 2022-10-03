@@ -389,7 +389,7 @@ textarea:focus {
   border-radius: 5px;
 }
 .input._focus {
-  background: grey;
+  border: 1px solid #F9600A;
 }
 .input._error {
   border: 1px solid red;
