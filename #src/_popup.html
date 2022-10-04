@@ -10,18 +10,16 @@
 				<div class="popup__form-block">
 					<h2>Заказать звонок</h2>
 					<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
-					<form action="#" class="form">
+					<form action="#" id="form_in_foot_callback" class="form">
 						<div class="form__line">
-							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля"
-								data-value="ВАШЕ ИМЯ" class="popup__form-input input _req">
-							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Заполните поля"
-								data-value="ВАШ ТЕЛЕФОН" class="popup__form-input input _phone _req">
-							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля"
-								data-value="ВАШ EMAIL" class="popup__form-input input _email _req">
+							<input type="text" name="name" data-value="ВАШЕ ИМЯ" class="popup__form-input input">
+							<input type="text" name="phone" data-value="ВАШ ТЕЛЕФОН" class="popup__form-input input _phone">
+							<input type="text" name="email" data-value="ВАШ EMAIL" class="popup__form-input input _email">
 						</div>
 						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
 								конфиденциальности</a></p>
-						<button class="popup__form-btn form__btn btn">ЗАКАЗАТЬ</button>
+						<button type="submit" class="popup__form-btn form__btn btn _send_btn_callback"
+							data-formid="form_in_foot_callback" data-msg="Заявка на обратный звонок">Заказать звонок</button>
 					</form>
 				</div>
 			</div>
