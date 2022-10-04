@@ -35,14 +35,20 @@
 		padding: 5px 38px 5px 0;
 	}
 
+	.services__column {
+		flex: 0 1 33.333%;
+		padding-bottom: 10px;
+	}
+
 	.services__card {
-		height: 300px;
+		height: 360px;
 		padding: 15px;
 	}
 
 	.our-projects__card {
 		flex: 0 1 50%;
 	}
+
 }
 
 @media (max-width: 940px) {
@@ -53,7 +59,7 @@
 
 @media (max-width: 812px) {
 	.services__card {
-		height: 250px;
+		height: 320px;
 	}
 
 	.services__card-title {
@@ -269,7 +275,11 @@
 
 @media (max-width: 630px) {
 	.services__column {
-		flex: 0 1 33.333%;
+		flex: 0 1 50%;
+	}
+
+	.services__card {
+		height: 360px;
 	}
 }
 
@@ -336,10 +346,6 @@
 		margin-bottom: 10px;
 	}
 
-	.services__column {
-		flex: 0 1 50%;
-	}
-
 	.our-projects__card {
 		height: 160px;
 	}
@@ -348,6 +354,10 @@
 	.contacts__form-btn {
 		flex: 0 1 100%;
 		width: 100%;
+	}
+
+	.services__card {
+		height: 320px;
 	}
 }
 
@@ -383,6 +393,10 @@
 	.our-projects__card {
 		flex: 0 1 100%;
 		// height: 130px;
+	}
+
+	.services__card {
+		height: 260px;
 	}
 }
 
