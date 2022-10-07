@@ -727,7 +727,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				console.log("eroroa" + xhr.statusText)
 			}
 
-			xhr.open('POST', "https://sks-group.online/sender-mail.php", true);
+			xhr.open('POST', "https://sks-group.online/sender-consult.php", true);
 			xhr.send(params);
 		}
 	})
